@@ -42,7 +42,8 @@ ExportedObj/
 *.pidb
 *.booproj
 *.svd
-*.pdb
+# there are pdb files in iOS builds
+# *.pdb
 *.mdb
 *.opendb
 *.VC.db
