@@ -23931,7 +23931,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t MagicLeapProvider_get_currentTrackin
 	uint64_t V_2 = 0;
 	{
 		int32_t L_0;
-		L_0 = VirtualFuncInvoker0< int32_t >::Invoke(20, __this);
+		L_0 = VirtualFuncInvoker0< int32_t >::Invoke(21, __this);
 		V_1 = L_0;
 		int32_t L_1 = V_1;
 		V_0 = L_1;

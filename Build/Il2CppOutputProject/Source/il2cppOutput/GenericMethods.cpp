@@ -10660,6 +10660,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t BurstRuntime_GetHashCode64_TisJobStru
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t BurstRuntime_GetHashCode64_TisParallelForJobStruct_1_tB9BEBA267F0C12E9696668B4396BAE8014580972_mA016C54C1CBC6B9AA1C3B136A3EB1503E51BD5C1_gshared (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t BurstRuntime_GetHashCode64_TisParallelForJobStruct_1_tC08B6B30CA4E4B2806C6296DF1AAFBFAB901A9E3_mE9711986AB4309992301AB962A69BC0C20CA4DB3_gshared (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t BurstRuntime_GetHashCode64_TisParallelForJobStruct_1_t3AE9BF2A5688B751371BC627E5F130BAE7939D51_mEBCF57CDE5DFBC04EFE10353C74A44C2864E739B_gshared (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t BurstRuntime_GetHashCode64_TisParallelForJobStruct_1_tC68333FB095159EE289DB71F794305B22E76C2FF_m417520AA46D4F62F245A0AD52B323223D951F7B6_gshared (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t BurstRuntime_GetHashCode64_TisParallelForJobStruct_1_tB6C107B071ACF0D0F366722E3582DEEFF0537769_m5D341F93C904FDF67EAC91825DA531FB05F51E90_gshared (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t BurstRuntime_GetHashCode64_TisParallelForJobStruct_1_t127DC0EC2B18DEC0C2F09455A2622D5AE87476B1_mED9AD36D67FD0A72B313BC3C39618673F86DE519_gshared (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t BurstRuntime_GetHashCode64_TisParallelForJobStruct_1_t194E9263F9E278076331CFC3296E74ABAA89D391_mF521C55221FF0D0F2200C5A5881E77D03F6F1742_gshared (const RuntimeMethod* method) ;
@@ -11885,6 +11886,10 @@ inline int64_t BurstRuntime_GetHashCode64_TisParallelForJobStruct_1_tC08B6B30CA4
 inline int64_t BurstRuntime_GetHashCode64_TisParallelForJobStruct_1_t3AE9BF2A5688B751371BC627E5F130BAE7939D51_mEBCF57CDE5DFBC04EFE10353C74A44C2864E739B (const RuntimeMethod* method)
 {
 	return ((  int64_t (*) (const RuntimeMethod*))BurstRuntime_GetHashCode64_TisParallelForJobStruct_1_t3AE9BF2A5688B751371BC627E5F130BAE7939D51_mEBCF57CDE5DFBC04EFE10353C74A44C2864E739B_gshared)(method);
+}
+inline int64_t BurstRuntime_GetHashCode64_TisParallelForJobStruct_1_tC68333FB095159EE289DB71F794305B22E76C2FF_m417520AA46D4F62F245A0AD52B323223D951F7B6 (const RuntimeMethod* method)
+{
+	return ((  int64_t (*) (const RuntimeMethod*))BurstRuntime_GetHashCode64_TisParallelForJobStruct_1_tC68333FB095159EE289DB71F794305B22E76C2FF_m417520AA46D4F62F245A0AD52B323223D951F7B6_gshared)(method);
 }
 inline int64_t BurstRuntime_GetHashCode64_TisParallelForJobStruct_1_tB6C107B071ACF0D0F366722E3582DEEFF0537769_m5D341F93C904FDF67EAC91825DA531FB05F51E90 (const RuntimeMethod* method)
 {
@@ -25420,6 +25425,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SharedStatic_1_t33583FDAFE4C36D5BA68FE6F54441
 	{
 		int64_t L_0;
 		L_0 = BurstRuntime_GetHashCode64_TisParallelForJobStruct_1_t3AE9BF2A5688B751371BC627E5F130BAE7939D51_mEBCF57CDE5DFBC04EFE10353C74A44C2864E739B(il2cpp_rgctx_method(method->rgctx_data, 0));
+		int32_t L_1;
+		L_1 = UnsafeUtility_SizeOf_TisIntPtr_t_mB2B3CFF1CB804C99734D4E2F5D8A8C9DB0D209A8_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
+		uint32_t L_2 = ___0_alignment;
+		void* L_3;
+		L_3 = SharedStatic_GetOrCreateSharedStaticInternal_mA2EDCD03A23E5C9D8AC312E73F81232E126DA304(L_0, ((int64_t)0), (uint32_t)L_1, L_2, NULL);
+		SharedStatic_1_t33583FDAFE4C36D5BA68FE6F5444170BB42F98C0 L_4;
+		memset((&L_4), 0, sizeof(L_4));
+		SharedStatic_1__ctor_mF83D06637E10F1C230BA4F1A841E742F6A5ED399_inline((&L_4), L_3, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
+		return L_4;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SharedStatic_1_t33583FDAFE4C36D5BA68FE6F5444170BB42F98C0 SharedStatic_1_GetOrCreate_TisParallelForJobStruct_1_tC68333FB095159EE289DB71F794305B22E76C2FF_mB843349E7CCA98EBA53641965BC4E79161151729_gshared (uint32_t ___0_alignment, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	{
+		int64_t L_0;
+		L_0 = BurstRuntime_GetHashCode64_TisParallelForJobStruct_1_tC68333FB095159EE289DB71F794305B22E76C2FF_m417520AA46D4F62F245A0AD52B323223D951F7B6(il2cpp_rgctx_method(method->rgctx_data, 0));
 		int32_t L_1;
 		L_1 = UnsafeUtility_SizeOf_TisIntPtr_t_mB2B3CFF1CB804C99734D4E2F5D8A8C9DB0D209A8_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
 		uint32_t L_2 = ___0_alignment;

@@ -534,10 +534,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Canvas_get_renderingDisplaySize_Injected();
 		Register_UnityEngine_Canvas_get_renderingDisplaySize_Injected();
 
-		//System.Void UnityEngine.Canvas::set_additionalShaderChannels(UnityEngine.AdditionalCanvasShaderChannels)
-		void Register_UnityEngine_Canvas_set_additionalShaderChannels();
-		Register_UnityEngine_Canvas_set_additionalShaderChannels();
-
 		//System.Void UnityEngine.Canvas::set_overrideSorting(System.Boolean)
 		void Register_UnityEngine_Canvas_set_overrideSorting();
 		Register_UnityEngine_Canvas_set_overrideSorting();
@@ -561,10 +557,6 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Canvas::set_sortingOrder(System.Int32)
 		void Register_UnityEngine_Canvas_set_sortingOrder();
 		Register_UnityEngine_Canvas_set_sortingOrder();
-
-		//UnityEngine.AdditionalCanvasShaderChannels UnityEngine.Canvas::get_additionalShaderChannels()
-		void Register_UnityEngine_Canvas_get_additionalShaderChannels();
-		Register_UnityEngine_Canvas_get_additionalShaderChannels();
 
 		//UnityEngine.Camera UnityEngine.Canvas::get_worldCamera()
 		void Register_UnityEngine_Canvas_get_worldCamera();
@@ -617,10 +609,6 @@ void RegisterAllStrippedInternalCalls()
 		//System.Boolean UnityEngine.CanvasRenderer::get_cull()
 		void Register_UnityEngine_CanvasRenderer_get_cull();
 		Register_UnityEngine_CanvasRenderer_get_cull();
-
-		//System.Boolean UnityEngine.CanvasRenderer::get_cullTransparentMesh()
-		void Register_UnityEngine_CanvasRenderer_get_cullTransparentMesh();
-		Register_UnityEngine_CanvasRenderer_get_cullTransparentMesh();
 
 		//System.Boolean UnityEngine.CanvasRenderer::get_hasMoved()
 		void Register_UnityEngine_CanvasRenderer_get_hasMoved();
@@ -694,10 +682,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_CanvasRenderer_set_cull();
 		Register_UnityEngine_CanvasRenderer_set_cull();
 
-		//System.Void UnityEngine.CanvasRenderer::set_cullTransparentMesh(System.Boolean)
-		void Register_UnityEngine_CanvasRenderer_set_cullTransparentMesh();
-		Register_UnityEngine_CanvasRenderer_set_cullTransparentMesh();
-
 		//System.Void UnityEngine.CanvasRenderer::set_hasPopInstruction(System.Boolean)
 		void Register_UnityEngine_CanvasRenderer_set_hasPopInstruction();
 		Register_UnityEngine_CanvasRenderer_set_hasPopInstruction();
@@ -709,10 +693,6 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.CanvasRenderer::set_popMaterialCount(System.Int32)
 		void Register_UnityEngine_CanvasRenderer_set_popMaterialCount();
 		Register_UnityEngine_CanvasRenderer_set_popMaterialCount();
-
-		//UnityEngine.Material UnityEngine.CanvasRenderer::GetMaterial(System.Int32)
-		void Register_UnityEngine_CanvasRenderer_GetMaterial();
-		Register_UnityEngine_CanvasRenderer_GetMaterial();
 
 	//End Registrations for type : UnityEngine.CanvasRenderer
 
@@ -1834,10 +1814,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Material_GetFirstPropertyNameIdByAttribute();
 		Register_UnityEngine_Material_GetFirstPropertyNameIdByAttribute();
 
-		//System.Int32 UnityEngine.Material::get_passCount()
-		void Register_UnityEngine_Material_get_passCount();
-		Register_UnityEngine_Material_get_passCount();
-
 		//System.Single UnityEngine.Material::GetFloatImpl(System.Int32)
 		void Register_UnityEngine_Material_GetFloatImpl();
 		Register_UnityEngine_Material_GetFloatImpl();
@@ -1874,14 +1850,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Material_EnableKeyword();
 		Register_UnityEngine_Material_EnableKeyword();
 
-		//System.Void UnityEngine.Material::GetColorImpl_Injected(System.Int32,UnityEngine.Color&)
-		void Register_UnityEngine_Material_GetColorImpl_Injected();
-		Register_UnityEngine_Material_GetColorImpl_Injected();
-
-		//System.Void UnityEngine.Material::SetColorImpl_Injected(System.Int32,UnityEngine.Color&)
-		void Register_UnityEngine_Material_SetColorImpl_Injected();
-		Register_UnityEngine_Material_SetColorImpl_Injected();
-
 		//System.Void UnityEngine.Material::SetFloatImpl(System.Int32,System.Single)
 		void Register_UnityEngine_Material_SetFloatImpl();
 		Register_UnityEngine_Material_SetFloatImpl();
@@ -1897,10 +1865,6 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Material::SetTextureImpl(System.Int32,UnityEngine.Texture)
 		void Register_UnityEngine_Material_SetTextureImpl();
 		Register_UnityEngine_Material_SetTextureImpl();
-
-		//System.Void UnityEngine.Material::set_renderQueue(System.Int32)
-		void Register_UnityEngine_Material_set_renderQueue();
-		Register_UnityEngine_Material_set_renderQueue();
 
 		//System.Void UnityEngine.Material::set_shader(UnityEngine.Shader)
 		void Register_UnityEngine_Material_set_shader();
@@ -2022,10 +1986,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Mesh_Internal_Create();
 		Register_UnityEngine_Mesh_Internal_Create();
 
-		//System.Void UnityEngine.Mesh::MarkDynamicImpl()
-		void Register_UnityEngine_Mesh_MarkDynamicImpl();
-		Register_UnityEngine_Mesh_MarkDynamicImpl();
-
 		//System.Void UnityEngine.Mesh::PrintErrorCantAccessChannel(UnityEngine.Rendering.VertexAttribute)
 		void Register_UnityEngine_Mesh_PrintErrorCantAccessChannel();
 		Register_UnityEngine_Mesh_PrintErrorCantAccessChannel();
@@ -2057,14 +2017,6 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Mesh::UploadMeshDataImpl(System.Boolean)
 		void Register_UnityEngine_Mesh_UploadMeshDataImpl();
 		Register_UnityEngine_Mesh_UploadMeshDataImpl();
-
-		//System.Void UnityEngine.Mesh::get_bounds_Injected(UnityEngine.Bounds&)
-		void Register_UnityEngine_Mesh_get_bounds_Injected();
-		Register_UnityEngine_Mesh_get_bounds_Injected();
-
-		//System.Void UnityEngine.Mesh::set_bounds_Injected(UnityEngine.Bounds&)
-		void Register_UnityEngine_Mesh_set_bounds_Injected();
-		Register_UnityEngine_Mesh_set_bounds_Injected();
 
 	//End Registrations for type : UnityEngine.Mesh
 
@@ -2794,37 +2746,13 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Renderer_get_sortingOrder();
 		Register_UnityEngine_Renderer_get_sortingOrder();
 
-		//System.Void UnityEngine.Renderer::SetMaterial(UnityEngine.Material)
-		void Register_UnityEngine_Renderer_SetMaterial();
-		Register_UnityEngine_Renderer_SetMaterial();
-
 		//System.Void UnityEngine.Renderer::set_enabled(System.Boolean)
 		void Register_UnityEngine_Renderer_set_enabled();
 		Register_UnityEngine_Renderer_set_enabled();
 
-		//System.Void UnityEngine.Renderer::set_receiveShadows(System.Boolean)
-		void Register_UnityEngine_Renderer_set_receiveShadows();
-		Register_UnityEngine_Renderer_set_receiveShadows();
-
-		//System.Void UnityEngine.Renderer::set_shadowCastingMode(UnityEngine.Rendering.ShadowCastingMode)
-		void Register_UnityEngine_Renderer_set_shadowCastingMode();
-		Register_UnityEngine_Renderer_set_shadowCastingMode();
-
-		//System.Void UnityEngine.Renderer::set_sortingLayerID(System.Int32)
-		void Register_UnityEngine_Renderer_set_sortingLayerID();
-		Register_UnityEngine_Renderer_set_sortingLayerID();
-
-		//System.Void UnityEngine.Renderer::set_sortingOrder(System.Int32)
-		void Register_UnityEngine_Renderer_set_sortingOrder();
-		Register_UnityEngine_Renderer_set_sortingOrder();
-
 		//UnityEngine.Material UnityEngine.Renderer::GetMaterial()
 		void Register_UnityEngine_Renderer_GetMaterial();
 		Register_UnityEngine_Renderer_GetMaterial();
-
-		//UnityEngine.Material UnityEngine.Renderer::GetSharedMaterial()
-		void Register_UnityEngine_Renderer_GetSharedMaterial();
-		Register_UnityEngine_Renderer_GetSharedMaterial();
 
 	//End Registrations for type : UnityEngine.Renderer
 
